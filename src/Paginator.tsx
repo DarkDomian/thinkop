@@ -10,7 +10,7 @@ const itemRender: PaginationProps['itemRender'] = (page, type, originalElement) 
   }
   if (type === 'next') {
     return page === 5 ? <></> : <a><FaArrowRight /></a>;
-  }
+  } 
   // if (type === 'page') {
     // return 
     // if (element === 1 || element === 4 || Math.abs(element - 1) <= 1) {
