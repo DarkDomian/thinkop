@@ -42,8 +42,8 @@ const FirstStep: React.FC<FormStepProps> = ({ onComplete }) => {
 
   return (
     <>
-      <div className="flex flex-row justify-between my-24">
-        <h1 className="font-semibold text-5xl">
+      <div className="flex md:flex-row flex-col md:justify-between md:my-24 my-5 text-center md:text-left">
+        <h1 className="font-semibold text-3xl md:text-5xl">
           Производственные
           <br />
           параметры фильма
